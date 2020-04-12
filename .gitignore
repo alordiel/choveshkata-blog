@@ -1,0 +1,39 @@
+# ignore some folder in the current folder
+collectionagency.ro
+cgi-bin
+smartcollect.bg
+sh_version_checker.php
+
+
+#hide wp-config.php
+wp-config.php
+web.config
+debug.log
+.coveralls.yml
+.well-known
+.travis.yml
+.github
+.ftpquota
+.gitattributes
+.htaccess
+.sass-cache/*
+node_modules/
+bower_components/
+npm-debug.log
+
+
+
+#ignore everything in the "wp-content" directory, except:
+# "mu-plugins", "plugins", "themes" directory
+wp-content/*
+!wp-content/mu-plugins/
+!wp-content/plugins/
+!wp-content/themes/
+
+# ignore node dependency directories
+node_modules/
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
