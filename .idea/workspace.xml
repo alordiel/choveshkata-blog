@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1ca0f04-d1d9-4ef7-9d91-b5f974f9d7ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/recent-revisions/RecentRevisions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/recent-revisions/RecentRevisions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/composerJson.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/connections/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/connections/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/connections/date.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/connections/date.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/connections/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/connections/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/connections/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/connections/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/connections/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/connections/page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/connections/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/connections/post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/connections/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/connections/search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/connections/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/connections/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/connections/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/connections/single.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +36,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/wp-content/debug.log" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -43,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586677191890</updated>
-      <workItem from="1586677193272" duration="1077000" />
+      <workItem from="1586677193272" duration="2486000" />
     </task>
     <servers />
   </component>
@@ -51,6 +64,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="461" y="153" key="SettingsEditor" timestamp="1586678827135">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="461" y="153" key="SettingsEditor/0.0.1920.1035@0.0.1920.1035" timestamp="1586678827135" />
+    <state x="637" y="257" width="645" height="520" key="find.popup" timestamp="1586679093155">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="637" y="257" width="645" height="520" key="find.popup/0.0.1920.1035@0.0.1920.1035" timestamp="1586679093155" />
+    <state x="624" y="236" key="run.anything.popup" timestamp="1586679198920">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="624" y="236" key="run.anything.popup/0.0.1920.1035@0.0.1920.1035" timestamp="1586679198920" />
     <state x="623" y="227" width="672" height="676" key="search.everywhere.popup" timestamp="1586677703999">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>

@@ -32,7 +32,7 @@ function toggleMe(a){
 	<meta name="generator" content="WordPress <?php bloginfo('version'); ?>" /> <!-- leave this for stats please -->
 	<style type="text/css" media="screen">
 		@import url( <?php bloginfo('stylesheet_url'); ?> );
-	</style>	
+	</style>
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
 	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="<?php bloginfo('atom_url'); ?>" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
@@ -45,24 +45,24 @@ function toggleMe(a){
 	<?php get_header(); ?>
 	<div id="main">
 	<div id="content">
-			<?php if ($posts) : foreach ($posts as $post) : start_wp(); ?>
+			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<div class="post">
 				<?php require('post.php'); ?>
 				<?php comments_template(); // Get wp-comments.php template ?>
 			</div>
-			<?php endforeach; else: ?>
+			<?php endwhile; else: ?>
 			<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
 			<?php endif; ?>
-		<p align="center"><?php posts_nav_link() ?></p>		
+		<p align="center"><?php posts_nav_link() ?></p>
 	</div>
 	<div id="sidebar">
 		<h2 onclick="toggleMe('sbabout');"><?php _e('За нас:'); ?></h2>
 			<ul id="sbabout"><center><img src='/pix/choveshkata_banner.jpg' title='място, на което книгите сбират човеци' alt='Човешката библиотека' /></center></ul>
-		
+
 		<?php get_sidebar(); ?>
-		
+
 	</div>
-	
+
 <?php get_footer(); ?>
 </div>
 </div>
