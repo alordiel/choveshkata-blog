@@ -36,7 +36,11 @@ The license is also available at http://www.gnu.org/copyleft/gpl.html
 
 // Load up the localization file if we're using WordPress in a different language
 // Place it in this plugin's folder and name it "recent-revisions-[value in wp-config].mo"
-load_plugin_textdomain( 'recent-revisions', '/wp-content/plugins/recent-revisions' );
+function recent_revisions_text_domain() {
+  load_plugin_textdomain( 'recent-revisions', false, basename( dirname( __FILE__ ) ) . '/languages' );
+}
+add_action( 'plugins_loaded', 'recent_revisions_text_domain' );
+
 
 function RecentRevisions() {
 
@@ -55,7 +59,7 @@ function RecentRevisions() {
 	// Use Date format of WP Preferences
 	$date_format = get_option('date_format') . ' ' . get_option('time_format');
 	if ( $posts ) {
-		echo "				<ul id='recent-revisions-list'>\n";
+		echo "<ul id='recent-revisions-list'>\n";
 
 		foreach ( $posts as $post ) {
 			$post_id = ($post->post_type == 'post') ? $post->ID : $post->post_parent;
