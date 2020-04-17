@@ -1,12 +1,3 @@
-<?php 
-session_start();
-if (!isset($_SESSION['ura'])){
-header('location:index.html');
-}
-$_SESSION = array();
-session_destroy();
-$_POST=array();
-?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -22,7 +13,7 @@ $_POST=array();
 		<h1 style="text-align:center">Чудесно! Вашата поръчка беше записана успешно.</h1>
 		<h2 style="text-align:center">Щом съберем необходимия брой поръчки, ще се свържем с вас. Благодарим ви за подкрепата!</h2>
 		<h4 style="text-align:right"><em>Екипът на Чоби:)</em></h4>
-		<p><a href="index.html">Назад</a></p>
+		<p><a href="index.php">Назад</a></p>
 	</div><!-- end "second_container"-->
 </div><!-- end "main_container"-->
 </body>
